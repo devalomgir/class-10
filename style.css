@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+   
+    width: 1200px;
+    margin: auto;
+}
+.header-menu{
+background-color: black;
+}
+.header-menu ul{
+    text-align: center;
+
+}
+.header-menu ul li{
+    display: inline-block;
+
+}
+.header-menu ul li a {
+    color: #fff;
+    padding: 11px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .header-menu ul li ul li a:hover{
+    background-color: blue;
+}
+/* drop down menu start */
+.header-menu{}
+.header-menu ul{
+}
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    background-color: black;
+    transition: .5s;
+}
+.header-menu ul li ul li{
+    display: block;
+}
+.header-menu ul li ul li a{
+    display: block;
+}
+.header-menu ul li ul li:hover>a{
+    background-color: blue;
+}
+.header-menu ul li ul li:first-child a{
+    border-top: 2px solid blue;
+}
+
+/* hover part */
+.header-menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    
+}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+   
+
+}
+/* secend drop down */
+.header-menu ul li {}
+.header-menu ul li ul{}
+.header-menu ul li ul li{}
+.header-menu ul li ul li ul li{
+    display: block;
+    position: relative;
+}
+.header-menu ul li ul li ul li a{
+    display: block;
+}
+.header-menu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.header-menu ul li ul li ul {
+    
+    opacity: 0;
+    visibility: hidden;
+
+}
+.header-menu ul li ul li ul:hover li {
+    opacity: 1;
+    visibility: visible;
+
+}
+.contaner-div{
+    background-image: url(./image/photo-1490578474895-699cd4e2cf59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 320px;
+    position: relative;
+    
+    
+}
+h1 {
+
+    background-color: #ddd;
+    display: inline-block;
+    padding: 7px 29px;
+    position: absolute;
+    top: 307px;
+    left: 530px;
+
+}
+h3 {
+    position: absolute;
+    background-color: #ddd;
+    display: block;
+    padding: 6px 502px;
+    top: 382px;
+    left: 59px;
+  }
+.learn-div {
+    position: absolute;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    top: 450px;
+    left: 566px;
+    transition: .5s;
+}
+.learn-div:hover{
+    background-color: #ddd;
+    color: black;
+}
+.container-one {
+    background-color: #fff;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    box-shadow: 0px 8px 5px 0px #ddd;
+    padding: 29px;
+  }
+.heading-one {
+    margin-top: 30px;
+    font-size: 49px;
+    text-align: center;
+  }
+  p{
+    font-size: 19px;
+  }
+  .container-two{
+    background-color: #fff;
+    margin-top: 40px;
+    box-shadow: 0px 8px 5px 0px #ddd;
+    padding: 29px;
+
+  }
+  .heading-two{
+    margin-top: 30px;
+    font-size: 49px;
+    text-align: center;
+
+  }
+  .email-div{
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+  }
+  input {
+    font-size: 20px;
+    margin-right: 24px;
+    padding-left: 10px;
+  }input {
+    font-size: 20px;
+    margin-right: 24px;
+    padding-left: 10px;
+  }
+  .submit-div {
+    padding: 6px 4px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+  }
+  /* box style */
+  .box-1{
+    height: 150px;
+    width: 300px;
+    padding: 50px 10px;
+    margin-left: 20px;
+    display: inline-block;
+
+  }
+  .head-div{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+  }
+  .box2{
+    height: 150px;
+    width: 300px;
+    padding: 50px 10px;
+    display: inline-block;
+
+  }
+  .box-three{
+    list-style-type: lower-roman;
+    display: inline-block;
+  }
+  Footer{
+    margin-top: 200px;
+    height: 100px;
+    background-color: black;
+  }
+  h4{
+    color: #fff;
+    text-align: center;
+  }
+  .social-icon {
+    text-align: center;
+    line-height: 100%;
+
+
+  }
+
+.social-icon span li {
+  color: #ddd;
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-top: 0 10px;
+}
+
+  footer ul li a:hover{}
+
+
+
+
